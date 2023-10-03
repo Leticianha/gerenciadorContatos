@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins";
+}
+
+@font-face {
+    font-family: "poppins";
+    src: url(font/Poppins-Light.ttf);
+}
+
+@font-face {
+    font-family: "poppins-black";
+    src: url(font/Poppins-Black.ttf);
+}
+
+body {
+    text-align: center;
+    margin-top: 5%;
+    background-color: rgb(206, 226, 185);
+}
+
+h1 {
+    color: rgb(74, 71, 71);
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    flex-direction: column;
+    margin: 0 36%;
+}
+
+input,
+button {
+    padding: 10px;
+    margin: 10px 0 0;
+    border-radius: 10px;
+}
+
+button {
+    background-color: rgb(165, 248, 132);
+}
+
+button:hover {
+    background-color: rgb(136, 213, 106);
+}
+
+#mostrar-contatos,
+#ocultar-contatos {
+    width: 214px;
+}
+
+form input #comentario {
+    margin: 0 20px 10px;
+    border-radius: 10px;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+li {
+    margin: 0 442px 0;
+    margin-top: 25px;
+}
+
+#comentario {
+    resize: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    height: 95px;
+    padding: 10px;
+    border: 2px solid black;
+    text-align: justify;
+}
+
+#contato-lista {
+    margin: 10px 0;
+    width: 100vw;
+}
+
+input,
+#comentario::placeholder {
+    color: gray;
+    font-size: 13px;
+}
+
+input,
+#comentario {
+    background-color: antiquewhite;
+}
+
+
+input {
+    color: black;
+}
+
+img {
+    position: absolute;
+    width: 85px;
+    opacity: 0.8;
+    top: 138px;
+    left: 306px;
+}
+
+#direito {
+    position: absolute;
+    width: 85px;
+    opacity: 0.8;
+    top: 352px;
+    left: 1130px;
+}
